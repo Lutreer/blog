@@ -18,6 +18,27 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
+{% highlight javascript %}
+var test = 'abc';
+function a() {
+    var b = 123;
+    alert(b);
+}
+{% endhighlight %}
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
+```javascript
+var test = 'abc';
+function a() {
+    var b = 123;
+    alert(b);
+}
+```
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
 [jekyll-docs]: http://jekyllrb.com/docs/home
