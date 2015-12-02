@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: 设计 摄影 厨子 的乐趣
+title: Lutreer's 乐趣
 email: lxuidesigner@gmail.com
 description: > # 如果你在这里发现了代码，那很有可能是我去体验类人猿的生活了。如果你喜欢你也可以。
 baseurl: "/blog" # the subpath of your site, e.g. /blog
