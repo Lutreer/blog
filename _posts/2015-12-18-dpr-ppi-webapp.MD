@@ -87,10 +87,12 @@ ppi是设备屏幕上每英寸上的物理像素的个数，注意！这里说�
 
 使用淘宝的解决方案：
 {% highlight html %}
-<script src="http://g.tbcdn.cn/mtb/lib-flexible/{{version}}/??flexible_css.js,flexible.js"></script>
+<script src="http://g.tbcdn.cn/mtb/lib-flexible/x.x.x/??flexible_css.js,flexible.js"></script>
 {% endhighlight %}
 
 引用在页面的最前面，js将根据当前设备使用合适的initial-scale，并设置合适的根元素font-size。
+
+[淘宝弹性布局方案lib-flexible详细介绍](http://www.cnblogs.com/lyzg/archive/2015/12/23/5058356.html)
 
 [font-size设置多少合适，这里有一部分在聊](http://isux.tencent.com/web-app-rem.html)
 
