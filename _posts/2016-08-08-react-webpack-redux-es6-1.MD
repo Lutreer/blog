@@ -33,8 +33,6 @@ title: React+Webpack+Redux+ES6教程之webpack
     需要的loader还很多,就不再一一说明，一切都在注释里了  
 
     ```
-    /*package.json*/
-
     "dependencies": {
         "webpack": "^1.13.1"
     },
@@ -48,7 +46,6 @@ title: React+Webpack+Redux+ES6教程之webpack
         /*react hot module reload react组件热加载，需要配合webpack-server-dev使用（详细看下面的“使用webpack启动项目”）
         install的时候还会给我们安装几个依赖：babel-preset-react-hmre，react-transform-hmr，react-transform-catch-errors，redbox-react*/
         "babel-preset-react-hmre": "^1.1.1",
-
         "clean-webpack-plugin": "^0.1.10",/*用来删除文件*/
         "css-loader": "^0.23.1",/*与style-loader和sass-loader一起使用处理css或sass*/
         "style-loader": "^0.13.1",
