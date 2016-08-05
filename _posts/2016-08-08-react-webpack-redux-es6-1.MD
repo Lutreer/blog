@@ -32,34 +32,34 @@ title: React+Webpack+Redux+ES6教程之webpack
 
     需要的loader还很多,就不再一一说明，一切都在注释里了  
 
-    ```
-    "dependencies": {
-        "webpack": "^1.13.1"
-    },
-    "devDependencies": {
-        "react": "^15.3.0",
-        "react-dom": "^15.3.0",
-        "babel-core": "^6.11.4",
-        "babel-loader": "^6.2.4",
-        "babel-preset-es2015": "^6.9.0",/*ES6 -> ES5*/
-        "babel-preset-react": "^6.11.1",/*JSX -> ES5*/
-        /*react hot module reload react组件热加载，需要配合webpack-server-dev使用（详细看下面的“使用webpack启动项目”）
-        install的时候还会给我们安装几个依赖：babel-preset-react-hmre，react-transform-hmr，react-transform-catch-errors，redbox-react*/
-        "babel-preset-react-hmre": "^1.1.1",
-        "clean-webpack-plugin": "^0.1.10",/*用来删除文件*/
-        "css-loader": "^0.23.1",/*与style-loader和sass-loader一起使用处理css或sass*/
-        "style-loader": "^0.13.1",
-        "sass-loader": "^4.0.0",
-        "node-sass": "^3.8.0",/*sass-loader依赖node-sass*/
-        "eslint": "^3.2.0",/*代码风格检测工具,辅助编码规范，控制代码质量，可以检测ES6和JSX*/
-        "eslint-loader": "^1.5.0",
-        "file-loader": "^0.9.0",/*与url-loader配合使用，项目中用处处理图片资源*/
-        "url-loader": "^0.5.7",/**/
-        "html-webpack-plugin": "^2.22.0",/*项目中用于将编译好的js文件路径自动在html中引入*/
-        "webpack-dev-server": "^1.14.1"/*是一个静态资源Web服务器*/
-    }
+```
+"dependencies": {
+    "webpack": "^1.13.1"
+},
+"devDependencies": {
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",/*ES6 -> ES5*/
+    "babel-preset-react": "^6.11.1",/*JSX -> ES5*/
+    /*react hot module reload react组件热加载，需要配合webpack-server-dev使用（详细看下面的“使用webpack启动项目”）
+    install的时候还会给我们安装几个依赖：babel-preset-react-hmre，react-transform-hmr，react-transform-catch-errors，redbox-react*/
+    "babel-preset-react-hmre": "^1.1.1",
+    "clean-webpack-plugin": "^0.1.10",/*用来删除文件*/
+    "css-loader": "^0.23.1",/*与style-loader和sass-loader一起使用处理css或sass*/
+    "style-loader": "^0.13.1",
+    "sass-loader": "^4.0.0",
+     "node-sass": "^3.8.0",/*sass-loader依赖node-sass*/
+    "eslint": "^3.2.0",/*代码风格检测工具,辅助编码规范，控制代码质量，可以检测ES6和JSX*/
+    "eslint-loader": "^1.5.0",
+    "file-loader": "^0.9.0",/*与url-loader配合使用，项目中用处处理图片资源*/
+    "url-loader": "^0.5.7",/**/
+    "html-webpack-plugin": "^2.22.0",/*项目中用于将编译好的js文件路径自动在html中引入*/
+    "webpack-dev-server": "^1.14.1"/*是一个静态资源Web服务器*/
+}
 
-    ```  
+```  
 
 ### 配置文件
 
