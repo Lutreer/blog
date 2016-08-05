@@ -30,9 +30,10 @@ title: React+Webpack+Redux+ES6教程之webpack
     *babel*可以将我们的ES6 & JSX 编译成浏览器可以识别的ES5。
     *(NOTE: bable-loader依赖babel依赖于babel-core，所以如果安装过程中提示需要安装这个，你就必须手动安装：`npm install babel-core --save-dev`)*  
 
-    需要的loader还很多,就不再一一说明，一切都在注释里了
-```
-/*package.json*/
+    需要的loader还很多,就不再一一说明，一切都在注释里了  
+
+    ```
+    /*package.json*/
 
     "dependencies": {
         "webpack": "^1.13.1"
@@ -62,7 +63,7 @@ title: React+Webpack+Redux+ES6教程之webpack
         "webpack-dev-server": "^1.14.1"/*是一个静态资源Web服务器*/
     }
 
-```
+    ```  
 
 ### 配置文件
 
@@ -89,7 +90,7 @@ title: React+Webpack+Redux+ES6教程之webpack
 > __dirname
 
     用于获取当前模块所在**目录**的完整**绝对路径**。  
-    还有一个`__filename`，可获取当前模块**文件**的带有完整绝对路径的**文件名**。
+    还有一个`__filename`，可获取当前模块**文件**的带有完整绝对路径的**文件名**。  
 
 ```
 //webpack.config.js
